@@ -1,0 +1,1 @@
+$(function(){$('a[href^="#"]').on("click",function(){var t=$(this).attr("href"),n=$("#"==t||""==t?"html":t),o=n.offset().top;return $("body,html").animate({scrollTop:o},400,"swing"),!1})});
