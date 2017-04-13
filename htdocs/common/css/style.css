@@ -471,6 +471,11 @@ body {
 	width: 80px;
 }
 
+.info_table b,
+.timetable b {
+	font-weight: 400;
+}
+
 .info_table {
 	margin-bottom: 40px;
 }
@@ -510,6 +515,10 @@ body {
 .member {
 	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: start;
+	align-items: flex-start;
 	max-width: 980px;
 	margin: 0 auto;
 }
@@ -565,7 +574,7 @@ body {
 	font-weight: 100;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
 
 .top {
 	-ms-flex-direction: column;
@@ -573,17 +582,31 @@ body {
 }
 
 .top .logo {
-	top: 20px;
+	position: static;
+	padding: 10px 0 0;
+	background-color: #abdcd6;
 }
 
 .top .top_coding,
 .top .top_design {
 	width: 100vw;
 	height: auto;
+	padding: 60px 20px;
 }
 
 .btn_more {
-	bottom: 30px;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.introduction {
+	padding: 60px 20px;
 }
 
 .info_table,

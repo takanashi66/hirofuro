@@ -59,7 +59,9 @@
 		font-size: 5vw;
 		
 		@include media_query(){
-			top: 20px;
+			position: static;
+			padding: 10px 0 0;
+			background-color: $main-color;
 		}
 		
 		@include media_query(640){
@@ -84,6 +86,7 @@
 		@include media_query(){
 			width: 100vw;
 			height: auto;
+			padding: 60px 20px;
 		}
 		
 		h2{
@@ -155,7 +158,14 @@
 	color: $font-color;
 	
 	@include media_query(){
-		bottom: 30px;
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		display: block;
+		text-align: center;
+		margin-top: 30px;
 	}
 	
 	&::before{
@@ -198,6 +208,10 @@
 	margin: 0 auto;
 	padding: 100px 20px;
 	
+	@include media_query(){
+		padding: 60px 20px;
+	}
+	
 	h2{
 		font-size: 2rem;
 		text-align: center;
@@ -223,10 +237,6 @@
 		width: 100%;
 	}
 	
-	tr{
-		
-	}
-	
 	th,td{
 		border: solid 1px #c3c3c3;
 		padding: .5em 1em;
@@ -237,8 +247,8 @@
 		width: 80px;
 	}
 	
-	td{
-		
+	b{
+		font-weight: 400;
 	}
 }
 
@@ -287,6 +297,8 @@
 
 .member{
 	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 	max-width: 980px;
 	margin: 0 auto;
 	
