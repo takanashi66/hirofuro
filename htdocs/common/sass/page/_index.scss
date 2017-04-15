@@ -108,6 +108,10 @@
 			font-size: 1.6rem;
 			line-height: 2;
 			text-align: center;
+			
+			@include media_query(){
+				text-align: justify;
+			}
 		}
 	}
 	
@@ -285,6 +289,10 @@
 			text-align: center;
 			line-height: 2;
 			
+			@include media_query(){
+				text-align: justify;
+			}
+			
 			small{
 				display: block;
 				font-size: 1.3rem;
@@ -338,6 +346,10 @@
 		ul{
 			li{
 				list-style: none;
+				
+				@include media_query(){
+					font-size: 1.4rem;
+				}
 				
 				&:first-child{
 					font-weight: 400;
