@@ -617,6 +617,8 @@ body {
 .member {
 	-ms-flex-direction: column;
 	flex-direction: column;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .member_item:not(:last-child) {
