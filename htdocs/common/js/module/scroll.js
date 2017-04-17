@@ -8,4 +8,16 @@ $(function(){
 		$('body,html').animate({scrollTop:position}, speed, 'swing');
 		return false;
 	});
+	
+	var $main = $("#main").offset().top;
+	//alert($main);
+	$(window).on('scroll', function () {
+		$scroll = $(window).scrollTop();
+		
+		if ($main > $scroll) {
+			$(".go_top").fadeOut();
+		}else if ($main <= $scroll){
+			$(".go_top").fadeIn();
+		}
+	})
 })

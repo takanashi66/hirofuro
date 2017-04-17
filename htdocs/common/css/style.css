@@ -258,6 +258,10 @@ body {
 }
 
 .go_top {
+	display: none;
+}
+
+.go_top a {
 	position: fixed;
 	right: 1vw;
 	bottom: 5vh;
@@ -281,7 +285,7 @@ body {
 	font-size: 1.3rem;
 }
 
-.go_top::before {
+.go_top a::before {
 	content: '';
 	width: 15px;
 	height: 15px;
@@ -294,8 +298,12 @@ body {
 	transition-duration: .4s;
 }
 
-.go_top:hover::before {
+.go_top a:hover::before {
 	margin-top: -15px;
+}
+
+.dn {
+	display: none !important;
 }
 
 .top {
@@ -575,6 +583,15 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+
+.go_top a {
+	font-size: 1.2rem;
+}
+
+.go_top a::before {
+	width: 10px;
+	height: 10px;
+}
 
 .top {
 	-ms-flex-direction: column;
