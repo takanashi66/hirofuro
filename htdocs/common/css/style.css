@@ -257,6 +257,14 @@ body {
 	font-feature-settings: "palt" 1;
 }
 
+a {
+	color: #333;
+}
+
+a:hover {
+	opacity: .7;
+}
+
 .go_top {
 	display: none;
 }
@@ -337,11 +345,9 @@ body {
 	display: flex;
 	-ms-flex-pack: center;
 	justify-content: center;
-	-ms-flex-align: center;
-	align-items: center;
 	width: 50vw;
 	height: 100vh;
-	padding: 8vh 8vw;
+	padding: 22vh 8vw 8vh;
 }
 
 .top .top_coding h2,

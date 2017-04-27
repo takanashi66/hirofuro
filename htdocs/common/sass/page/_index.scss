@@ -95,10 +95,10 @@
 		position: relative;
 		display: flex;
 		justify-content: center;
-		align-items: center;
+		//align-items: center;
 		width: 50vw;
 		height: 100vh;
-		padding: 8vh 8vw;
+		padding: 22vh 8vw 8vh;
 		
 		@include media_query(){
 			width: 100vw;
