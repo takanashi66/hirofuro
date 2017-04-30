@@ -205,8 +205,7 @@ html(lang="ja")
 						img(src="../common/img/inoue.jpg", alt="井上拓")
 						h2 井上 拓
 						ul
-							li
-								a(href="http://codecodeweb.com", target="_blank") CodeCode
+							li: a(href="http://codecodeweb.com", target="_blank") CodeCode
 							li フロントエンドエンジニア
 							li CSS Nite in HIROSHIMA実行委員 副委員長
 					
@@ -214,16 +213,14 @@ html(lang="ja")
 						img(src="../common/img/sakakibara.jpg", alt="榊原 裕希")
 						h2 榊原 裕希
 						ul
-							li
-								a(href="https://www.m-field.biz/", target="_blank") 株式会社エム・フィールド
+							li: a(href="https://www.m-field.biz/", target="_blank") 株式会社エム・フィールド
 							li フロントエンドエンジニア
 					
 					.member_item
 						img(src="../common/img/tantan.png", alt="タンタン")
 						h2 タンタン
 						ul
-							li
-								a(href="https://www.m-field.biz/", target="_blank") 株式会社エム・フィールド
+							li: a(href="https://www.m-field.biz/", target="_blank") 株式会社エム・フィールド
 							li デザイナー
 
 							
@@ -234,6 +231,11 @@ html(lang="ja")
 		script(src="../common/js/jquery-3.2.1.min.js")
 		script(src="../common/js/script.js")
 		script(src="https://use.typekit.net/wwi8jbt.js")
-		script try{Typekit.load({ async: true });}catch(e){}
+		script.
+			try{
+				Typekit.load({ async: true });
+			}catch(e){}
 		script(src="../common/js/analytics.js")
+		
+		script
 					
