@@ -13,7 +13,80 @@ html(lang="ja")
     meta(property="og:image", content="http://hiroshima.codecodeweb.com/common/img/logo.png")
     meta(property="og:description", content="広島フロントエンド勉強会は広島で活動するフロントエンドエンジニアの悩みを解決する集まりです。")
     
+    script(type="application/ld+json").
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "広島フロントエンド勉強会 Vol.9 『JavaScriptの基礎のき』",
+        "startDate": "2017-05-13T13:30+09:00",
+        "url": "https://hirofuro.org#coding",
+        "location": {
+          "@type": "Place",
+          "name": "株式会社エム・フィールド 広島オフィス"
+          "address": {
+            "@type": "PostalAddress",
+            "postalCode": "730-0012",
+            "addressRegion": "Ja",
+            "addressLocality": "広島県",
+            "streetAddress": "広島市中区上八丁堀7-5 ピロティーヒロシマビル2F"
+          },
+          "url": "https://www.m-field.biz/company"
+        },
+        "Performer": {
+          "@type": "Person",
+          "name": "井上拓",
+          "url": "https://codecodeweb.com/"
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "200円",
+          "offerCount": "15枚",
+          "url":"https://connpass.com/event/55228/"
+        },
+        "organizer"{
+          "@type": "Person",
+          "name": "井上拓",
+          "url": "https://codecodeweb.com/"
+        }
+      },
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "広島フロントエンド勉強会 〜デザイン部〜 Vol.2 『手を動かして学ぶレイアウトデザイン』",
+        "startDate": "2017-05-13T10:00+09:00",
+        "url": "https://hirofuro.org#design",
+        "location": {
+          "@type": "Place",
+          "name": "株式会社エム・フィールド 広島オフィス"
+          "address": {
+            "@type": "PostalAddress",
+            "postalCode": "730-0012",
+            "addressRegion": "Ja",
+            "addressLocality": "広島県",
+            "streetAddress": "広島市中区上八丁堀7-5 ピロティーヒロシマビル2F"
+          },
+          "url": "https://www.m-field.biz/company"
+        },
+        "Performer": {
+          "@type": "Person",
+          "name": "タンタン",
+          "url": "https://www.m-field.biz/"
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "200円",
+          "offerCount": "15枚",
+          "url":"https://connpass.com/event/55230/"
+        },
+        "organizer"{
+          "@type": "Person",
+          "name": "井上拓",
+          "url": "https://codecodeweb.com/"
+        }
+      }
+    
     link(rel="stylesheet", href="common/css/style.css")
+    link(rel="stylesheet", href="common/fontello/css/fontello.css")
     title 広島フロントエンド勉強会
   body
     
@@ -228,6 +301,10 @@ html(lang="ja")
       p &copy; 2016 広島フロントエンド勉強会
       
     
+    a.btn_share(href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhirofuro.org%2F&amp;src=sdkpreparse" target="_blank")
+      i.icon-facebook-official
+      span Facebookでシェア
+    
     script(src="../common/js/jquery-3.2.1.min.js")
     script(src="../common/js/script.js")
     script(src="https://use.typekit.net/wwi8jbt.js")
@@ -236,4 +313,12 @@ html(lang="ja")
         Typekit.load({ async: true });
       }catch(e){}
     script(src="../common/js/analytics.js")
+    script.
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.9&appId=492512024277992";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
           
