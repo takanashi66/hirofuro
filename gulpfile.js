@@ -36,7 +36,7 @@ gulp.task('pug', function(){
     errorHandler: notify.onError('Error: <%= error.message %>')
   }))
   .pipe(pug({
-    pretty: true
+    //pretty: true
   }))
   .pipe(gulp.dest(rootpath))
   .pipe(browserSync.stream());
