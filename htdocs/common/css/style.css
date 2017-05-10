@@ -354,7 +354,7 @@ a:hover {
 	text-align: center;
 	color: #000;
 	font-weight: 300;
-	font-size: 5vw;
+	font-size: 5rem;
 }
 
 .top .logo img {
@@ -641,7 +641,7 @@ a:hover {
 
 .top .logo {
 	position: static;
-	padding: 10px 0 0;
+	padding: 20px 0 0;
 	background-color: #abdcd6;
 }
 
@@ -649,7 +649,7 @@ a:hover {
 .top .top_design {
 	width: 100vw;
 	height: auto;
-	padding: 60px 20px;
+	padding: 30px 20px;
 }
 
 .top .top_coding p,
