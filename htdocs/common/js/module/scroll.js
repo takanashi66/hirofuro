@@ -20,4 +20,8 @@ $(function(){
 			$(".go_top").fadeIn();
 		}
 	})
+	
+	$(".btn_none").on("click", function(){
+  	return false;
+	})
 })

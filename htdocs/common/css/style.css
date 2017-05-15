@@ -459,6 +459,19 @@ a:hover {
 	top: 120%;
 }
 
+.btn_none {
+	background-color: #a1a1a1;
+	border: solid 1px #a1a1a1;
+	color: #d1d0d2;
+	cursor: text;
+}
+
+.btn_none:hover {
+	background-color: #a1a1a1;
+	color: #d1d0d2;
+	opacity: 1;
+}
+
 #design {
 	background-color: #f7f7f7;
 }
