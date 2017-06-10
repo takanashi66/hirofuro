@@ -398,6 +398,13 @@ a:hover {
 	text-align: center;
 }
 
+.top .top_coding .datetime,
+.top .top_design .datetime {
+	font-size: 2rem;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
 .top_coding {
 	background-color: #abdcd6;
 }
@@ -499,6 +506,13 @@ a:hover {
 	font-weight: 400;
 	margin-bottom: 40px;
 	color: #000;
+}
+
+.introduction p {
+	text-align: center;
+	line-height: 2;
+	margin-bottom: 30px;
+	font-weight: 400;
 }
 
 .info_table,
