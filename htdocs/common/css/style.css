@@ -363,19 +363,21 @@ a:hover {
 }
 
 .top .top_coding,
-.top .top_design {
+.top .top_design,
+.top .top_vr {
 	position: relative;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: center;
 	justify-content: center;
 	width: 50vw;
-	height: 100vh;
+	height: 85vh;
 	padding: 22vh 8vw 8vh;
 }
 
 .top .top_coding h2,
-.top .top_design h2 {
+.top .top_design h2,
+.top .top_vr h2 {
 	font-size: 2rem;
 	text-align: center;
 	margin-bottom: 10px;
@@ -383,7 +385,8 @@ a:hover {
 }
 
 .top .top_coding h3,
-.top .top_design h3 {
+.top .top_design h3,
+.top .top_vr h3 {
 	font-size: 2.5rem;
 	text-align: center;
 	font-weight: 400;
@@ -392,14 +395,16 @@ a:hover {
 }
 
 .top .top_coding p,
-.top .top_design p {
+.top .top_design p,
+.top .top_vr p {
 	font-size: 1.6rem;
 	line-height: 2;
 	text-align: center;
 }
 
 .top .top_coding .datetime,
-.top .top_design .datetime {
+.top .top_design .datetime,
+.top .top_vr .datetime {
 	font-size: 2rem;
 	font-weight: 400;
 	margin-bottom: 15px;
@@ -411,6 +416,28 @@ a:hover {
 
 .top_design {
 	background-color: #fffcec;
+}
+
+.top_vr {
+	width: 100vw !important;
+	height: 100vh !important;
+	background-color: #abdcd6;
+}
+
+.vr {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #fff;
+	height: 15vh;
+	width: 100%;
+	font-size: 2rem;
+	text-align: center;
+	background-color: #eb593c;
+	font-weight: 100;
 }
 
 .btn_entry {
@@ -487,6 +514,10 @@ a:hover {
 	background-color: #fff;
 }
 
+#sponsored {
+	background-color: #f7f7f7;
+}
+
 .introduction {
 	max-width: 980px;
 	margin: 0 auto;
@@ -547,6 +578,37 @@ a:hover {
 
 .timetable tr:nth-child(even) {
 	background: #f2f2f2;
+}
+
+.sponsored_table {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.sponsored_table th,
+.sponsored_table td {
+	border: solid 1px #c3c3c3;
+	padding: .5em 1em;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.sponsored_table th {
+	font-weight: 600;
+	width: 80px;
+}
+
+.sponsored_table b {
+	font-weight: 400;
+}
+
+.sponsored_table tr:nth-child(even) {
+	background: #f2f2f2;
+}
+
+.sponsored_table tr:not(:first-child) th {
+	text-align: left;
 }
 
 .about {
@@ -673,14 +735,16 @@ a:hover {
 }
 
 .top .top_coding,
-.top .top_design {
+.top .top_design,
+.top .top_vr {
 	width: 100vw;
 	height: auto;
 	padding: 30px 20px;
 }
 
 .top .top_coding p,
-.top .top_design p {
+.top .top_design p,
+.top .top_vr p {
 	text-align: justify;
 }
 
@@ -701,6 +765,10 @@ a:hover {
 
 .info_table,
 .timetable {
+	width: 100%;
+}
+
+.sponsored_table {
 	width: 100%;
 }
 
