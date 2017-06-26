@@ -460,6 +460,16 @@ a:hover {
 	color: #eb593c;
 }
 
+.ap {
+	background-color: #00bbd3;
+	border: solid 1px #00bbd3;
+}
+
+.ap:hover {
+	background-color: transparent;
+	color: #00bbd3;
+}
+
 .btn_more {
 	position: absolute;
 	width: 200px;
@@ -578,6 +588,11 @@ a:hover {
 
 .timetable tr:nth-child(even) {
 	background: #f2f2f2;
+}
+
+.sponsored_table_wrap {
+	overflow: scroll;
+	width: 100%;
 }
 
 .sponsored_table {
@@ -748,6 +763,28 @@ a:hover {
 	text-align: justify;
 }
 
+.top .top_coding .datetime,
+.top .top_design .datetime,
+.top .top_vr .datetime {
+	text-align: center;
+}
+
+.top .top_coding .placce,
+.top .top_design .placce,
+.top .top_vr .placce {
+	text-align: center;
+}
+
+.vr {
+	position: fixed;
+	bottom: 50px;
+	left: 0;
+	width: 100%;
+	font-size: 1.3rem;
+	font-weight: normal;
+	background-color: rgba(235,89,60,0.7);
+}
+
 .btn_more {
 	position: relative;
 	top: 0;
@@ -769,7 +806,8 @@ a:hover {
 }
 
 .sponsored_table {
-	width: 100%;
+	width: 800px;
+	margin: 0;
 }
 
 .about_inner p {
@@ -789,6 +827,14 @@ a:hover {
 
 .member_item ul li {
 	font-size: 1.4rem;
+}
+
+.vrp .btn_entry {
+	margin-top: 30px;
+}
+
+.vrp .top .top_vr h3 {
+	margin-bottom: 20px;
 }
 
 }
