@@ -17,9 +17,9 @@ html(lang="ja")
       [{
         "@context": "http://schema.org",
         "@type": "Event",
-        "name": "広島フロントエンド勉強会 Vol.11 『CMS concrete5 でサイトを作ってみよう』",
-        "startDate": "2017-06-14T19:00+09:00",
-        "endDate": "2017-06-14T21:00+09:00",
+        "name": "広島フロントエンド勉強会 Vol.12 『』",
+        "startDate": "2017-09-08T19:00+09:00",
+        "endDate": "2017-09-08T21:00+09:00",
         "url": "https://hirofuro.org#coding",
         "image":"http://hirofuro.org/common/img/logo.png",
         "location": {
@@ -37,22 +37,22 @@ html(lang="ja")
         },
         "Performer": {
           "@type": "Person",
-          "name": "神守 由理子",
-          "url": "https://www.m-field.biz/"
+          "name": "井上拓",
+          "url": "https://codecodeweb.com/"
         },
         "organizer": {
           "@type": "Person",
           "name": "井上拓",
           "url": "https://codecodeweb.com/"
         },
-        "description": "Pugは、HTMLを書くための軽量なJavaScriptで作られたテンプレートエンジンです。Pugを学んで、マークアップを効率化しましょう。"
+        "description": ""
       },
       {
         "@context": "http://schema.org",
         "@type": "Event",
-        "name": "広島フロントエンド勉強会 〜デザイン部〜 Vol.3 『webデザインカンプどう作る？情報交換会』",
-        "startDate": "2017-07-08T13:00+09:00",
-        "endDate": "2017-07-08T15:00+09:00",
+        "name": "広島フロントエンド勉強会 〜デザイン部〜 Vol.4 『』",
+        "startDate": "2017-09-02T13:00+09:00",
+        "endDate": "2017-09-02T15:00+09:00",
         "url": "https://hirofuro.org#design",
         "image":"https://scontent.xx.fbcdn.net/v/t31.0-8/17358623_279101885861556_1258037896068756591_o.jpg?oh=74aec32d700d186ff06137d59eab1988&oe=597A12BB",
         "location": {
@@ -78,69 +78,72 @@ html(lang="ja")
           "name": "井上拓",
           "url": "https://codecodeweb.com/"
         },
-        "description": "ハンズオン形式でカンプを作りながら、まずはどこから作る？ダミーテキストってどうしてる？見栄えを良くするにはどうしたらいいの？みたいなことを意見交換しましょう。"
+        "description": ""
       }]
     
     link(rel="stylesheet", href="common/css/style.css")
     link(rel="stylesheet", href="common/fontello/css/fontello.css")
     title 広島フロントエンド勉強会
-  body
+  body.index
     
     .go_top
       a(href="#") トップへ
     
     .top
       
-      h1.logo 広島フロントエンド勉強会
+      h1.logo(data-heading="広島フロントエンド勉強会") 広島フロントエンド勉強会
       
       .top_coding
         .top_introduction
-          h2 広島フロントエンド勉強会 Vol.11
-          h3 『CMS concrete5 でサイトを作ってみよう』
-          p.datetime 2017年7月14日 19:00 〜 21:00
-          p.placce 株式会社エム・フィールド 広島オフィス
-            br
-            | (広島県広島市中区上八丁堀7-5 ピロティーヒロシマ2F)
+          h2 広島フロントエンド勉強会 Vol.12
+          //h3 『タイトル未定』
+          p.datetime 2017年9月8日 19:00 〜 21:00
+          //p.placce 株式会社エム・フィールド 広島オフィス
+          //  br
+          //  | (広島県広島市中区上八丁堀7-5 ピロティーヒロシマ2F)
           
-          a.btn_entry(href="https://connpass.com/event/60116/", target="_blank") 参加登録はこちら
+          a.btn_entry.btn_none(href="", target="_blank") 参加登録はこちら
           
           a.btn_more(href="#coding") 詳しい情報を見る
           
           
       .top_design
         .top_introduction
-          h2 広島フロントエンド勉強会 〜デザイン部〜 Vol.3
-          h3 『webデザインカンプどう作る？情報交換会』
-          p.datetime 2017年7月8日 13:00 〜 15:00
-          p.placce 株式会社エム・フィールド 広島オフィス
-            br
-            | (広島県広島市中区上八丁堀7-5 ピロティーヒロシマ2F)
+          h2 広島フロントエンド勉強会 〜デザイン部〜 Vol.4
+          //h3 『タイトル未定』
+          p.datetime 2017年9月2日 13:00 〜 16:00
+          //p.placce 株式会社エム・フィールド 広島オフィス
+          //  br
+          //  | (広島県広島市中区上八丁堀7-5 ピロティーヒロシマ2F)
           
             
-          a.btn_entry(href="https://connpass.com/event/60117/", target="_blank") 参加登録はこちら
+          a.btn_entry.btn_none(href="https://connpass.com/event/60117/", target="_blank") 参加登録はこちら
           
           a.btn_more(href="#design") 詳しい情報を見る
           
       
-    a.vr(href="vr.html") 広島フロントエンド勉強会 & 広島Unity勉強会　特別版開催！
-      br
-      | 『これから始めるWebVR』
-      br
-      | 詳細はこちら
+    a.vr(href="vr.html") 
+      p #[strong 2017年8月5日 14:30 〜 17:30]
+        br
+        | 広島フロントエンド勉強会 & 広島Unity勉強会　特別版開催！
+        br
+        | 『#[strong これから始めるWebVR]』
+        br
+        | #[small 詳細はこちら]
     
     main#main.main
       
       article#coding
         section.introduction
-          h2 広島フロントエンド勉強会 Vol.11
-          h3 『CMS concrete5 でサイトを作ってみよう』
+          h2 広島フロントエンド勉強会 Vol.12
+          h3 『タイトル未定』
           
           p.text
           
           table.info_table
             tr
               th 日時
-              td 2017年7月14日 19:00 〜 21:00
+              td 2017年9月8日 19:00 〜 21:00
             tr
               th 会場
               td 株式会社エム・フィールド 広島オフィス
@@ -149,8 +152,8 @@ html(lang="ja")
             tr
               th 講師
               td
-                a(href="https://www.m-field.biz/", target="_blank") 株式会社エム・フィールド 
-                strong 神守 由理子
+                a(href="https://codecodeweb.com/", target="_blank") CodeCode 
+                strong 井上　拓
             tr
               th 定員
               td 15人
@@ -169,41 +172,28 @@ html(lang="ja")
               th 19:05
               td 調整中
             tr
-              th 19:10
-              td 調整中
-            tr
-              th 19:20
-            tr
               th 20:00
               td 休憩
             tr
-              th 20:15
+              th 20:10
               td 調整中
             tr
               th 20:50
               td まとめ
               
-          a.btn_entry(href="https://connpass.com/event/60116/", target="_blank") 参加登録はこちら
+          a.btn_entry.btn_none(href="", target="_blank") 参加登録はこちら
       
       article#design
         section.introduction
-          h2 広島フロントエンド勉強会 〜デザイン部〜 Vol.3
-          h3 『webデザインカンプどう作る？情報交換会』
+          h2 広島フロントエンド勉強会 〜デザイン部〜 Vol.4
+          h3 『タイトル未定』
           
-          p.text ハンズオン形式でカンプを作りながら、
-            br
-            | まずはどこから作る？
-            br
-            | ダミーテキストってどうしてる？
-            br
-            | 見栄えを良くするにはどうしたらいいの？
-            br
-            | のようなことを手を動かしながら、思いついた質問やおすすめテクニックをじゃんじゃん投げあいましょう。
+          p.text 
           
           table.info_table
             tr
               th 日時
-              td 2017年5月13日 13:00 〜 14:00
+              td 2017年9月8日 13:00 〜 16:00
             tr
               th 会場
               td 株式会社エム・フィールド 広島オフィス
@@ -232,16 +222,19 @@ html(lang="ja")
               th 13:05
               td 調整中
             tr
-              th 14:00
+              th 14:05
               td 休憩
             tr
-              th 14:10
+              th 14:20
               td 調整中
             tr
-              th 14:50
+              th 15:20
+              td 休憩
+            tr
+              th 15:35
               td まとめ
       
-          a.btn_entry(href="https://connpass.com/event/60117/", target="_blank") 参加登録はこちら
+          a.btn_entry.btn_none(href="https://connpass.com/event/60117/", target="_blank") 参加登録はこちら
           
           
           
