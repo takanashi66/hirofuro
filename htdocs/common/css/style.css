@@ -373,21 +373,19 @@ a:hover {
 }
 
 .top .top_coding,
-.top .top_design,
-.top .top_vr {
+.top .top_design {
 	position: relative;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: center;
 	justify-content: center;
 	width: 50vw;
-	height: 60vh;
+	height: 100vh;
 	padding: 22vh 8vw 8vh;
 }
 
 .top .top_coding h2,
-.top .top_design h2,
-.top .top_vr h2 {
+.top .top_design h2 {
 	font-size: 2rem;
 	text-align: center;
 	margin-bottom: 10px;
@@ -395,8 +393,7 @@ a:hover {
 }
 
 .top .top_coding h3,
-.top .top_design h3,
-.top .top_vr h3 {
+.top .top_design h3 {
 	font-size: 2.5rem;
 	text-align: center;
 	font-weight: 400;
@@ -405,16 +402,14 @@ a:hover {
 }
 
 .top .top_coding p,
-.top .top_design p,
-.top .top_vr p {
+.top .top_design p {
 	font-size: 1.6rem;
 	line-height: 2;
 	text-align: center;
 }
 
 .top .top_coding .datetime,
-.top .top_design .datetime,
-.top .top_vr .datetime {
+.top .top_design .datetime {
 	font-size: 2rem;
 	font-weight: 400;
 	margin-bottom: 15px;
@@ -426,36 +421,6 @@ a:hover {
 
 .top_design {
 	background-color: #fffcec;
-}
-
-.top_vr {
-	width: 100vw !important;
-	height: 100vh !important;
-	background-color: #abdcd6;
-}
-
-.vr {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-pack: center;
-	justify-content: center;
-	-ms-flex-align: center;
-	align-items: center;
-	color: #fff;
-	height: 40vh;
-	width: 100%;
-	font-size: 2vw;
-	text-align: center;
-	background-color: #eb593c;
-	font-weight: 100;
-}
-
-.vr strong {
-	font-weight: normal;
-}
-
-.vr small {
-	font-size: 1.2vw;
 }
 
 .btn_entry {
@@ -835,44 +800,25 @@ a:hover {
 }
 
 .top .top_coding,
-.top .top_design,
-.top .top_vr {
+.top .top_design {
 	width: 100vw;
 	height: auto;
 	padding: 30px 20px;
 }
 
 .top .top_coding p,
-.top .top_design p,
-.top .top_vr p {
+.top .top_design p {
 	text-align: justify;
 }
 
 .top .top_coding .datetime,
-.top .top_design .datetime,
-.top .top_vr .datetime {
+.top .top_design .datetime {
 	text-align: center;
 }
 
 .top .top_coding .placce,
-.top .top_design .placce,
-.top .top_vr .placce {
+.top .top_design .placce {
 	text-align: center;
-}
-
-.vr {
-	position: fixed;
-	bottom: 50px;
-	left: 0;
-	width: 100%;
-	height: 30vh;
-	font-size: 2rem;
-	font-weight: normal;
-	background-color: rgba(235,89,60,0.7);
-}
-
-.vr small {
-	font-size: 1.6rem;
 }
 
 .btn_more {
