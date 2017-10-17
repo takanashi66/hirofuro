@@ -1,0 +1,20 @@
+{"users": [
+{
+  "localId": "lUYzZBjW0GPErNWrgnDgCimhk012",
+  "email": "takanashi66@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "b6t6fsZbvACwsVh7oR99s5Tcr7w3mQlqBTaJZ9ou9NJ/jSs62vJWZGK3Y42C1mpx0ZLvQa4DlKFmtik12Vusfw==",
+  "salt": "OiimgrIkQqyHJg==",
+  "createdAt": "1507819750000",
+  "providerUserInfo": []
+},
+{
+  "localId": "lUYzZBjW0GPErNWrgnDgCimhk013",
+  "email": "takanashi66@yahoo.co.jp",
+  "emailVerified": false,
+  "passwordHash": "b6t6fsZbvACwsVh7oR99s5Tcr7w3mQlqBTaJZ9ou9NJ/jSs62vJWZGK3Y42C1mpx0ZLvQa4DlKFmtik12Vusfw==",
+  "salt": "OiimgrIkQqyHJg==",
+  "createdAt": "1507819750000",
+  "providerUserInfo": []
+}
+]}
