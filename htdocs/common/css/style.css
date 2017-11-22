@@ -338,6 +338,20 @@ a:hover {
 	display: none !important;
 }
 
+.logocafe {
+	width: 100%;
+	text-align: center;
+	font-size: 5rem;
+	top: 6vh;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	color: #fffcec;
+	white-space: nowrap;
+	font-weight: 300;
+	z-index: 99;
+}
+
 .index .logo {
 	font-size: 5rem;
 	top: 6vh;
@@ -369,6 +383,8 @@ a:hover {
 	position: relative;
 	display: -ms-flexbox;
 	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 	width: 100%;
 }
 
@@ -380,7 +396,7 @@ a:hover {
 	-ms-flex-pack: center;
 	justify-content: center;
 	width: 50vw;
-	height: 100vh;
+	height: 80vh;
 	padding: 22vh 8vw 8vh;
 }
 
@@ -421,6 +437,42 @@ a:hover {
 
 .top_design {
 	background-color: #fffcec;
+}
+
+.top_cafe {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 100vw;
+	height: 20vh;
+	text-align: center;
+	background-color: #dbabae;
+	color: #fff;
+}
+
+.top_cafe h3 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+.top_cafe p {
+	font-size: 2rem;
+	font-weight: 200;
+}
+
+.cafe .top_coding {
+	background-color: #abdcd6;
+	width: 100vw;
+}
+
+.cafe .top_introduction h2 {
+	font-size: 3rem;
 }
 
 .btn_entry {
@@ -537,6 +589,10 @@ a:hover {
 	line-height: 2;
 	margin-bottom: 30px;
 	font-weight: 400;
+}
+
+cafe .introduction {
+	padding-bottom: 0;
 }
 
 .info_table,
@@ -781,6 +837,13 @@ a:hover {
 	height: 10px;
 }
 
+.logocafe {
+	font-size: 8vw;
+	position: static;
+	background-color: #abdcd6;
+	padding: 20px 0 0;
+}
+
 .index .logo {
 	transform: none;
 	position: static;
@@ -819,6 +882,15 @@ a:hover {
 .top .top_coding .placce,
 .top .top_design .placce {
 	text-align: center;
+}
+
+.top_cafe {
+	height: auto;
+	padding: 2em;
+}
+
+.cafe .top_introduction h2 {
+	font-size: 1.8rem;
 }
 
 .btn_more {

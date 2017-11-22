@@ -55,6 +55,27 @@
 	display: none !important;
 }
 
+.logocafe{
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  top: 6vh;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  color: $base-color;
+  white-space: nowrap;
+  font-weight: 300;
+  z-index: 99;
+  
+  @include media_query(){
+  	font-size: 8vw;
+  	position: static;
+  	background-color: $main-color;
+  	padding: 20px 0 0;
+  }
+}
+
 .index .logo{
 /*
 	position: absolute;
@@ -114,6 +135,7 @@
 .top{
 	position: relative;
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	
 	@include media_query(){
@@ -126,7 +148,7 @@
 		justify-content: center;
 		//align-items: center;
 		width: 50vw;
-		height: 100vh;
+		height: 80vh;
 		padding: 22vh 8vw 8vh;
 		
 		@include media_query(){
@@ -185,6 +207,52 @@
 		@extend %top_box;
 		background-color: $base-color;
 	}
+}
+
+.top_cafe{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 20vh;
+  text-align: center;
+  background-color: #dbabae;
+  color: #fff;
+  
+  h3{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+  
+  p{
+    font-size: 2rem;
+    font-weight: 200;
+  }
+  
+  @include media_query(){
+    height: auto;
+    padding: 2em;
+  	
+  }
+}
+
+.cafe{
+  .top_coding{
+    @extend %top_box;
+		background-color: $main-color;
+		width: 100vw;
+  }
+  .top_introduction{
+    h2{
+      font-size: 3rem;
+      
+      @include media_query(){
+      	font-size: 1.8rem;
+      }
+    }
+  }
 }
 
 
@@ -325,6 +393,12 @@
   	margin-bottom: 30px;
   	font-weight: 400;
 	}
+}
+
+,cafe{
+  .introduction{
+    padding-bottom: 0;
+  }
 }
 
 %table{

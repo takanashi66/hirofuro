@@ -23,9 +23,9 @@ html(lang="ja")
       [{
         "@context": "http://schema.org",
         "@type": "Event",
-        "name": "広島フロントエンド勉強会 Vol.13 『1日でアップデートECMAScript』",
-        "startDate": "2017-10-28T13:00+09:00",
-        "endDate": "2017-10-28T15:00+09:00",
+        "name": "広島フロントエンド勉強会 Vol.14 『Firebaseのはじめかた』",
+        "startDate": "2017-12-01T19:00+09:00",
+        "endDate": "2017-12-01T21:00+09:00",
         "url": "https://hirofuro.org#coding",
         "image":"http://hirofuro.org/common/img/logo.png",
         "location": {
@@ -38,7 +38,7 @@ html(lang="ja")
           "@type": "Offer",
           "price": "200",
           "priceCurrency": "JPY",
-          "url": "https://hfe.connpass.com/event/68379/",
+          "url": "https://hfe.connpass.com/event/71544/",
           "inventoryLevel": "販売中"
         },
         "Performer": {
@@ -84,7 +84,7 @@ html(lang="ja")
           "name": "井上拓",
           "url": "https://funaffect.jp"
         },
-        "description": "現在調整中です。"
+        "description": "Adobeの製品の中で、デザインに活用できるツールは様々ありますが、その中でも比較的新しいAdobe XDについて実際に触っていきます。"
       }]
     
     link(rel="stylesheet", href="common/css/style.css")
@@ -101,14 +101,14 @@ html(lang="ja")
       
       .top_coding
         .top_introduction
-          h2 広島フロントエンド勉強会 Vol.13
-          h3 『1日でアップデートECMAScript』
-          p.datetime 2017年10月28日 13:00 〜 15:00
+          h2 広島フロントエンド勉強会 Vol.14 
+          h3 『Firebaseのはじめかた』
+          p.datetime 2017年12月1日 19:00 〜 21:00
           p.placce 株式会社エム・フィールド 広島オフィス
             br
             | (広島県広島市中区上八丁堀7-5 ピロティーヒロシマ2F)
           
-          a.btn_entry.btn_none(href="https://hfe.connpass.com/event/68379/", target="_blank") 参加登録はこちら
+          a.btn_entry(href="https://hfe.connpass.com/event/71544/", target="_blank") 参加登録はこちら
           
           a.btn_more(href="#coding") 詳しい情報を見る
           
@@ -123,27 +123,34 @@ html(lang="ja")
             | (広島県広島市中区上八丁堀7-5 ピロティーヒロシマ2F)
           
             
-          a.btn_entry(href="https://hirofurodesign.connpass.com/event/70870/", target="_blank") 参加登録はこちら
+          a.btn_entry.btn_none(href="https://hirofurodesign.connpass.com/event/70870/", target="_blank") 参加登録はこちら
           
           a.btn_more(href="#design") 詳しい情報を見る
-    
+      
+      a.top_cafe(href="cafe.html")
+        h3 ヒロフロ交流会
+        p 2017年12月9日 16:00 〜 19:00
+        p 詳細はこちら
+      
     main#main.main
       
       article#coding
         section.introduction
-          h2 広島フロントエンド勉強会 Vol.13
-          h3 『1日でアップデートECMAScript』
+          h2 広島フロントエンド勉強会 Vol.14
+          h3 『Firebaseのはじめかた』
           
-          p.text JavaScriptを取り巻く環境が目まぐるしく変化し、言語仕様そのものがECMAScript5からECMAScript2015、そしてECMAScript2016、ECMAScript2017とアップデートされています。
+          p.text FirebaseはBaaS（Backend as a Service）と呼ばれるGoogleのクラウドサービスです。
             br
-            | 今回はECMAScript5とそれ以降では何が変わったのかを確認して、最新仕様を学ぶ足がかりにしましょう。
+            | webアプリやスマートフォンアプリなどの面倒なバックエンドをGoogleに丸投げして、フロントエンドの開発に集中できます。
             br
-            | ※最新仕様全てが網羅されているわけではありません。
+            | リアルタイムデータベース、ユーザー認証、ホスティングなど多くの機能をFirebaseは提供してくれます。
+            br
+            | Firebaseの基本的な使い方を体験してみましょう。
           
           table.info_table
             tr
               th 日時
-              td 2017年10月28日 13:00 〜 15:00
+              td 2017年12月1日 19:00 〜 21:00
             tr
               th 会場
               td 株式会社エム・フィールド 広島オフィス
@@ -181,7 +188,7 @@ html(lang="ja")
           //    th 15:00
           //    td まとめ
               
-          a.btn_entry.btn_none(href="https://hfe.connpass.com/event/68379/", target="_blank") 参加登録はこちら
+          a.btn_entry(href="https://hfe.connpass.com/event/71544/", target="_blank") 参加登録はこちら
       
       article#design
         section.introduction
@@ -191,8 +198,8 @@ html(lang="ja")
           p Adobeの製品の中で、デザインに活用できるツールは様々ありますが、その中でも比較的新しいAdobe XDについて実際に触っていきます。
           p 先日おこなわれた大幅なアップデートで、Adobe Experience Design ベータ版が正式にAdobe XDとして公開されました。
             br
-            | もともとプロトタイピングツールとしての側面が強かった印象ですが、そこからデザインの成果物を制作できるほど機能が詰め込まれていて、知れば知るほど面白い、また、これからの進化が楽しむなツールでもあります。
-          p 「とにかくもっとXDを使っていこう！」という気持ちではなくこうゆうやり方もある、一部でも業務に取り入れれば効率化できるかもしれない、そんな新たな発見や気づきのある会にしたいと思います。
+            | もともとプロトタイピングツールとしての側面が強かった印象ですが、そこからデザインの成果物を制作できるほど機能が詰め込まれていて、知れば知るほど面白い、また、これからの進化が楽しみなツールでもあります。
+          p 「とにかくもっとXDを使っていこう！」という気持ちではなくこういうやり方もある、一部でも業務に取り入れれば効率化できるかもしれない、そんな新たな発見や気づきのある会にしたいと思います。
           
           table.info_table
             tr
@@ -235,7 +242,7 @@ html(lang="ja")
           //    th 14:50
           //    td まとめ
       
-          a.btn_entry(href="https://hirofurodesign.connpass.com/event/70870/", target="_blank") 参加登録はこちら
+          a.btn_entry.btn_none(href="https://hirofurodesign.connpass.com/event/70870/", target="_blank") 参加登録はこちら
           
           
           
