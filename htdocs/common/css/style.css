@@ -596,6 +596,11 @@ a:hover {
 	font-weight: 400;
 }
 
+.introduction .text {
+	max-width: 700px;
+	margin: 0 auto 30px;
+}
+
 cafe .introduction {
 	padding-bottom: 0;
 }
@@ -820,6 +825,20 @@ cafe .introduction {
 	border: solid 1px #abdcd6;
 }
 
+@media screen and (max-width: 812px) {
+
+.cafe .top_coding {
+	height: auto;
+	min-height: 100vh;
+	padding-bottom: 80px;
+}
+
+.cafe .top_coding .btn_more {
+	bottom: 30px;
+}
+
+}
+
 @media screen and (max-width: 800px) {
 
 .btn_share {
@@ -843,7 +862,7 @@ cafe .introduction {
 }
 
 .logocafe {
-	font-size: 8vw;
+	font-size: 7.5vw;
 	position: static;
 	background-color: #abdcd6;
 	padding: 20px 0 0;
@@ -894,6 +913,12 @@ cafe .introduction {
 	padding: 2em;
 }
 
+.cafe .top_coding {
+	padding-bottom: 30px;
+	min-height: auto;
+	height: 70vh;
+}
+
 .cafe .top_introduction h2 {
 	font-size: 1.8rem;
 }
@@ -911,6 +936,10 @@ cafe .introduction {
 
 .introduction {
 	padding: 60px 20px;
+}
+
+.introduction .text {
+	text-align: left;
 }
 
 .info_table,
