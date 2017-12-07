@@ -68,6 +68,11 @@
   font-weight: 300;
   z-index: 99;
   
+  span{
+    font-feature-settings: "ss02";
+    color: $font-color;
+  }
+  
   @include media_query(){
   	font-size: 8vw;
   	position: static;
