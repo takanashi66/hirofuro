@@ -390,8 +390,17 @@
 	padding: 100px 20px;
 	
 	@include media_query(){
+		padding: 
+      80px
+      env(safe-area-inset-right) 
+      80px 
+      env(safe-area-inset-left);
+	}
+	
+	@include media_query(640){
 		padding: 60px 20px;
 	}
+	
 	
 	h2{
 		font-size: 2rem;
@@ -419,16 +428,10 @@
   	max-width: 700px;
   	margin: 0 auto 30px;
   	
-  	@include media_query(){
-  		text-align: left;
+  	@include media_query(640){
+  		text-align: justify;
   	}
 	}
-}
-
-,cafe{
-  .introduction{
-    padding-bottom: 0;
-  }
 }
 
 %table{
@@ -515,6 +518,18 @@
 .about{
 	padding: 100px 20px;
 	
+	@include media_query(){
+		padding: 
+      80px
+      env(safe-area-inset-right) 
+      40px 
+      env(safe-area-inset-left);
+	}
+	
+	@include media_query(640){
+		padding: 30px 20px;
+	}
+	
 	&_inner{
 		max-width: 980px;
 		margin: 0 auto 50px;
@@ -530,7 +545,7 @@
 			text-align: center;
 			line-height: 2;
 			
-			@include media_query(){
+			@include media_query(640){
 				text-align: justify;
 			}
 			

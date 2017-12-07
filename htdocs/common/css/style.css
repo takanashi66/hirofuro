@@ -601,10 +601,6 @@ a:hover {
 	margin: 0 auto 30px;
 }
 
-cafe .introduction {
-	padding-bottom: 0;
-}
-
 .info_table,
 .timetable {
 	width: 600px;
@@ -825,21 +821,7 @@ cafe .introduction {
 	border: solid 1px #abdcd6;
 }
 
-@media screen and (max-width: 812px) {
-
-.cafe .top_coding {
-	height: auto;
-	min-height: 100vh;
-	padding-bottom: 80px;
-}
-
-.cafe .top_coding .btn_more {
-	bottom: 30px;
-}
-
-}
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
 
 .btn_share {
 	top: auto;
@@ -935,11 +917,7 @@ cafe .introduction {
 }
 
 .introduction {
-	padding: 60px 20px;
-}
-
-.introduction .text {
-	text-align: left;
+	padding: 80px env(safe-area-inset-right) 80px env(safe-area-inset-left);
 }
 
 .info_table,
@@ -952,8 +930,8 @@ cafe .introduction {
 	margin: 0;
 }
 
-.about_inner p {
-	text-align: justify;
+.about {
+	padding: 80px env(safe-area-inset-right) 40px env(safe-area-inset-left);
 }
 
 .member {
@@ -982,10 +960,40 @@ cafe .introduction {
 
 }
 
+@media screen and (max-width: 812px) {
+
+.cafe .top_coding {
+	height: auto;
+	min-height: 100vh;
+	padding-bottom: 80px;
+}
+
+.cafe .top_coding .btn_more {
+	bottom: 30px;
+}
+
+}
+
 @media screen and (max-width: 640px) {
 
 .index .logo {
 	font-size: 8vw;
+}
+
+.introduction {
+	padding: 60px 20px;
+}
+
+.introduction .text {
+	text-align: justify;
+}
+
+.about {
+	padding: 30px 20px;
+}
+
+.about_inner p {
+	text-align: justify;
 }
 
 }
