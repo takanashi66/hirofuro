@@ -23,41 +23,36 @@ html(lang="ja")
       [{
         "@context": "http://schema.org",
         "@type": "Event",
-        "name": "ヒロフロ交流会",
+        "name": "ヒロフロ & AUG広島Git勉強会",
         "startDate": "2017-12-01T19:00+09:00",
         "endDate": "2017-12-01T21:00+09:00",
         "url": "https://hirofuro.org#coding",
         "image":"http://hirofuro.org/common/img/logo.png",
         "location": {
           "@type": "Place",
-          "name": "リードスペース株式会社 広島オフィス",
-          "address": "広島県広島市中区上八丁堀7-5 ピロティーヒロシマビル2F",
+          "name": "株式会社ドリーム・アーツ 広島オフィス",
+          "address": "広島県広島市中区大手町一丁目2番1号 おりづるタワー6Ｆ",
           "url": "https://www.m-field.biz/company"
         },
         "offers": {
           "@type": "Offer",
           "price": "200",
           "priceCurrency": "JPY",
-          "url": "https://hfe.connpass.com/event/71544/",
+          "url": "https://hfe.connpass.com/event/76229/",
           "inventoryLevel": "販売中"
-        },
-        "Performer": {
-          "@type": "Person",
-          "name": "井上拓",
-          "url": "https://funaffect.jp"
         },
         "organizer": {
           "@type": "Person",
           "name": "井上拓",
           "url": "https://funaffect.jp"
         },
-        "description": "ヒロフロ交流会"
+        "description": "全くの初心者から使ってはいるけどどうしていいかわからないという人を対象にバージョン管理ソフトの定番になったGitについておさらいしましょう。"
       }]
       
     
     link(rel="stylesheet", href="common/css/style.css")
     link(rel="stylesheet", href="common/fontello/css/fontello.css")
-    title ヒロフロ交流会
+    title 広島フロントエンド勉強会 Vol.15
   body.index
     
     .go_top
@@ -68,13 +63,15 @@ html(lang="ja")
       h1.logocafe 広島フロントエンド勉強会
       .top_coding
         .top_introduction
-          h2 ヒロフロ交流会
-          p.datetime 2017年12月9日 16:00 〜 19:00
-          p.placce リードスペース株式会社 広島オフィス
+          h2 ヒロフロ & AUG広島Git勉強会
+          p.datetime 2017年1月20日(土) 13:00 〜 16:45
             br
-            | (広島県広島市中区上八丁堀7-5 ピロティーヒロシマ2F)
+            small(style="font-size: 1.4rem;") (セキュリティの関係上、遅れた場合はご案内が遅くなる場合がございます。時間に間に合うようにお越しください。)
+          p.placce 株式会社ドリーム・アーツ 広島オフィス
+            br
+            | (広島県広島市中区大手町一丁目2番1号 おりづるタワー6Ｆ)
           
-          a.btn_entry(href="https://hfe.connpass.com/event/72073/", target="_blank") 参加登録はこちら
+          a.btn_entry(href="https://hfe.connpass.com/event/76229/", target="_blank") 参加登録はこちら
           
           a.btn_more(href="#coding") 詳しい情報を見る
           
@@ -83,85 +80,77 @@ html(lang="ja")
       
       article#coding
         section.introduction
-          h2 ヒロフロ交流会
+          h2
+            strong ヒロフロ & AUG広島Git勉強会
           
-          p.text 広島フロントエンド勉強会とデザイン部の交流会を行います。
+          p.text バージョン管理が現場に浸透して数年経ちました。
             br
-            | フロントエンドエンジニアとデザイナーが交流しディレクションやフロントエンド、デザインなどの情報交換をLT形式で行います。
+            | しかし、まだ使ったことがない人や、使っていてもちゃんと使えているのかわからないという人もいます。
             br
-            | 飛び込みLTも大歓迎です！
-            br
-            | その後、年末ということで忘年会を行います。
-            br
-            | 食べ物・飲み物の差し入れ大歓迎です！
-            br
-            | ぜひ、ご参加ください。
-            br
-            | ※未成年の方もご参加頂けますが、飲酒は禁止です。
+            | 今回は全くの初心者から使ってはいるけどどうしていいかわからないという人を対象にバージョン管理ソフトの定番になったGitについておさらいしましょう。
+
           
           table.info_table
             tr
               th 日時
-              td 2017年12月9日 16:00 〜 19:00
+              td 
+                strong 2017年1月20日(土) 13:00 〜 13:30 開場・受付
+                br
+                span(style="color:red;") (セキュリティの関係上、遅れた場合はご案内が遅くなる場合がございます。時間に間に合うようにお越しください。)
             tr
               th 会場
-              td リードスペース株式会社 広島オフィス
+              td
+                strong 株式会社ドリーム・アーツ 広島オフィス
                 br
-                | (広島県広島市中区上八丁堀7-5 ピロティーヒロシマ2F)
+                | (広島県広島市中区大手町一丁目2番1号 おりづるタワー6Ｆ)
             tr
               th 定員
               td 20人
             tr
               th 参加費
-              td #[strong 一般参加]： 1,000円
-                br
-                | #[strong LT参加]：500円
+              td 200円
           
           table.timetable
             tr
               th(colspan="2") タイムテーブル
             tr
-              th 16:00
-              td あいさつ・注意事項
+              th 13:00
+              td 開場・受付開始
             tr
-              th 16:30
-              td LT1 「#[strong 勉強会をやる意味]」 井上 拓
+              th 13:30
+              td あいさつ
             tr
-              th 16:35
-              td LT2 「体験！ インクルーシブなメニューボタン」 安倍 英樹
+              th 13:40
+              td 『#[strong 初歩からのGit]』
+                br
+                | 大杉将輝 (広島工業大学4年)
             tr
-              th 16:40
-              td LT3 「#[strong かみーゆ、AMP導入したってよ]」 神守 由理子
+              th 14:20
+              td 『#[strong Unityで始めるバージョン管理、Git LFS入門編]』
+                br
+                | 中奥貴浩 (広島Unity勉強会)
             tr
-              th 16:45
-              td LT4 「#[strong jQueryを使ったサイト制作しかしたことのない僕がVuejsを触ってみた。]」 tanaka_web
-            tr
-              th 16:50
-              td LT5 「#[strong  こんなディレクターはいやでござる。]」 榊原 裕希
-            tr
-              th 16:55
+              th 15:00
               td 休憩
             tr
-              th 17:15
-              td LT6 「#[strong 合字を使ってコーディング]」 井上 拓
+              th 15:15
+              td 『#[strong web制作におけるGitフロー]』
+                br
+                | 井上拓 (ファナフェクト)
             tr
-              th 17:20
-              td LT7 「#[strong 感覚で決めないデザインの間隔の話]」 タンタン
+              th 15:55
+              td 『#[strong BitbucketとSourcetree]』
+                br
+                | 満田遼 (AUG広島)
             tr
-              th 17:25
-              td LT8 「#[strong Docker初級者によるDocker布教]」 dyoshikawa1993
+              th 16:35
+              td あいさつ
             tr
-              th 17:30
-              td LT9 「#[strong 検索結果から消えた!? エイジングフィルターとは?]」 しゃーまん
-            tr
-              th 17:35
-              td LT10 「調整中」 
-            tr
-              th 17:40
-              td ヒロフロ居酒屋 〜延長戦〜
+              th 16:45
+              td 終了
             
               
-        a.btn_entry(href="https://hfe.connpass.com/event/72073/", target="_blank") 参加登録はこちら
+        a.btn_entry(href="https://hfe.connpass.com/event/76229/", target="_blank") 参加登録はこちら
       
       article.about
         section.about_inner
@@ -172,20 +161,6 @@ html(lang="ja")
             | 毎月テーマに沿って、ディスカッション形式でマークアップ、スタイリング等の疑問や悩みを解決しましょう。
             br
             | 共に疑問や悩みの解決、新たな技術の習得を通して広島のweb制作のレベルアップを目指します。
-            br
-            br
-            br
-            
-          h2 デザイン部について
-          
-          p 広島でwebデザインを主軸にした勉強会が少なく、情報共有できるコミュニティーも少ないとの相談を受け、
-            br
-            | 広島フロントエンド勉強会の姉妹勉強会として「広島フロントエンド勉強会〜デザイン部〜」を立ち上げました。
-            br
-            | ツールの使い方から文字サイズや行間はどうやって決めるかなど素朴な疑問まで、
-            br
-            | 参加者全員で情報を共有し、広島のwebデザインのレベルアップを目指します！
-            br
             br
             
             small ※広島フロントエンド勉強会はボランティアベースで開催しており、
