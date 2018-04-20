@@ -279,7 +279,7 @@
 .btn_entry{
 	display: block;
 	max-width: 300px;
-	margin: 50px auto 0;
+	margin: 30px auto 0;
 	padding: 15px 0;
 	
 	font-size: 1.8rem;
@@ -295,6 +295,10 @@
 	&:hover{
 		background-color: transparent;
 		color: $accent-color;
+	}
+	
+	&+.btn_entry{
+  	margin-top: 10px;
 	}
 }
 
