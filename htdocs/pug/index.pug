@@ -23,9 +23,9 @@ html(lang="ja")
       [{
         "@context": "http://schema.org",
         "@type": "Event",
-        "name": "広島フロントエンド勉強会 Vol. 19 『concrete5に触ってみよう – ヒロフロCMS部 Vol.1』",
-        "startDate": "2018-06-02T15:00+09:00",
-        "endDate": "2018-06-02T18:00+09:00",
+        "name": "広島フロントエンド勉強会 Vol.20 『技術書持ち寄り交流会』",
+        "startDate": "2018-07-14T13:30+09:00",
+        "endDate": "2018-07-14T15:00+09:00",
         "url": "https://hirofuro.org#coding",
         "image":"http://hirofuro.org/common/img/logo.png",
         "location": {
@@ -38,25 +38,25 @@ html(lang="ja")
           "@type": "Offer",
           "price": "200",
           "priceCurrency": "JPY",
-          "url": "https://hfe.connpass.com/event/85169/",
+          "url": "https://hfe.connpass.com/event/91388/",
           "inventoryLevel": "販売中"
         },
         "Performer": {
           "@type": "Person",
-          "name": "神守 由理子",
-          "url": "https://leadspace.co.jp/"
+          "name": "井上 拓",
+          "url": "https://codecodeweb.com"
         },
         "organizer": {
           "@type": "Person",
           "name": "井上 拓",
           "url": "https://codecodeweb.com"
         },
-        "description": "concrete5にどんな機能があるのか、どんなサイトに向いているのか、実装の難易度などの説明をしたり、実際に触って体感してみましょう"
+        "description": "技術書のジャンルは不問。最近読んだ技術書やずっと持ってるおすすめの技術書を持ち寄って、交流しましょう。"
       },
       {
         "@context": "http://schema.org",
         "@type": "Event",
-        "name": "広島フロントエンド勉強会 〜デザイン部〜 Vol.7",
+        "name": "広島フロントエンド勉強会 〜デザイン部〜 Vol.8 『お絵かき勉強会！知覚の特性を学んで絵のコツを身につけよう』",
         "startDate": "2018-06-16T13:30+09:00",
         "endDate": "2019-03-03T15:30+09:00",
         "url": "https://hirofuro.org#design",
@@ -84,7 +84,7 @@ html(lang="ja")
           "name": "井上 拓",
           "url": "https://funaffect.jp"
         },
-        "description": ""
+        "description": "絵が好きで、もっと上手くなる方法が知りたい。イラストを描くのは好きだけど、写実的に描くのは苦手。そんな方へレベルアップのきっかけに。"
       }]
     
     link(rel="stylesheet", href="common/css/style.css")
@@ -101,14 +101,14 @@ html(lang="ja")
       
       .top_coding
         .top_introduction
-          h2 広島フロントエンド勉強会 Vol.19
-          h3 『concrete5に触ってみよう – ヒロフロCMS部 Vol.1』
-          p.datetime 2018年6月2日 15:00 〜 18:00
+          h2 広島フロントエンド勉強会 Vol.20
+          h3 『技術書持ち寄り交流会』
+          p.datetime 2018年6月2日 13:30 〜 15:00
           p.placce リードスペース株式会社
             br
             | (広島県広島市中区上八丁堀7-5 ピロティーヒロシマ6F)
           
-          a.btn_entry.btn_none(href="https://hfe.connpass.com/event/85169/", target="_blank") 参加登録はこちら
+          a.btn_entry(href="https://hfe.connpass.com/event/91388/", target="_blank") 参加登録はこちら
           
           a.btn_more(href="#coding") 詳しい情報を見る
           
@@ -131,29 +131,29 @@ html(lang="ja")
       
       article#coding
         section.introduction
-          h2 広島フロントエンド勉強会 Vol.19
-          h3 『concrete5に触ってみよう – ヒロフロCMS部 Vol.1』
+          h2 広島フロントエンド勉強会 Vol.20
+          h3 『技術書持ち寄り交流会』
           
-          p.text 広島でもCMSの勉強会がしたい！ということでこの度、広島フロントエンド勉強会でCMS部をやってみることになりました。
+          p.text 技術書のジャンルは不問。
             br
-            | 記念すべき第1回は「concrete5を触ってみよう」と、いうことでCMSのconcrete5を取り上げてみます。
+            | 最近読んだ技術書やずっと持ってるおすすめの技術書を持ち寄って、交流しましょう。
             br
-            | concrete5にどんな機能があるのか、どんなサイトに向いているのか、実装の難易度などの説明をしたり、実際に触って体感してみましょう〜。
+            | ※当日はおすすめの技術書を1冊以上お持ちください。
           
           table.info_table
             tr
               th 日時
-              td 2018年6月2日 15:00 〜 18:00
+              td 2018年7月14日 13:30 〜 15:00
             tr
               th 会場
               td リードスペース株式会社
                 br
                 | (広島県広島市中区上八丁堀7-5 ピロティーヒロシマ6F)
-            tr
-              th 講師
-              td
-                a(href="https://leadspace.co.jp/", target="_blank") リードスペース株式会社 
-                strong 神守 由理子
+            //tr
+              //th 講師
+              //td
+                //a(href="https://leadspace.co.jp/", target="_blank") リードスペース株式会社 
+                //strong 神守 由理子
             tr
               th 定員
               td 15人
@@ -161,44 +161,7 @@ html(lang="ja")
               th 参加費
               td 200円(会場費を割勘)
           
-          table.timetable
-            tr
-              th 14:30
-              td 受付開始
-            tr
-              th 15:00
-              td オープニング 挨拶&自己紹介タイム
-            tr
-              th 15:20
-              td concrete5に触ってみよう
-            tr
-              th 17:30
-              td LT大会（CMS縛り）
-            tr
-              th
-              td LT1　井上 拓 「WordPressの開発をプラグインで管理する」
-            tr
-              th
-              td LT2　西山史生 「タイトル未定」
-            tr
-              th
-              td LT3　藤井 賢博 「concrete5でREST(API)を実装する」
-            tr
-              th
-              td LT4　未定
-            tr
-              th 18:00
-              td 終了
-            tr
-              th 18:30
-              td 懇親会
-                br
-                | きて屋(広島県広島市中区上八丁堀3-11　喜花ビル１階)
-                br
-                | 参加費 4,000円
-            
-              
-          a.btn_entry.btn_none(href="https://hfe.connpass.com/event/85169/", target="_blank") 参加登録はこちら
+          a.btn_entry(href="https://hfe.connpass.com/event/91388/", target="_blank") 参加登録はこちら
       
       article#design
         section.introduction
