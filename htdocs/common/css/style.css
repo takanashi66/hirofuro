@@ -405,8 +405,8 @@ a:hover {
 	-ms-flex-pack: center;
 	justify-content: center;
 	width: 50%;
-	height: 100vh;
-	padding: 22vh 8vw 8vh;
+	height: 85vh;
+	padding: 18vh 8vw 8vh;
 }
 
 .top .top_coding h2,
@@ -419,10 +419,10 @@ a:hover {
 
 .top .top_coding h3,
 .top .top_design h3 {
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	text-align: center;
 	font-weight: 400;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 	color: #000;
 }
 
@@ -431,6 +431,12 @@ a:hover {
 	font-size: 1.6rem;
 	line-height: 2;
 	text-align: center;
+}
+
+.top .top_coding .small,
+.top .top_design .small {
+	font-size: .7em;
+	line-height: 1.4;
 }
 
 .top .top_coding .datetime,
@@ -446,6 +452,31 @@ a:hover {
 
 .top_design {
 	background-color: #fffcec;
+}
+
+.top_sp {
+	width: 100%;
+	height: 15vh;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	background-color: #EB593C;
+	color: #fff;
+}
+
+.top_sp h2 {
+	font-size: 1.5rem;
+}
+
+.top_sp p {
+	font-size: 1.3rem;
+	margin-top: 5px;
 }
 
 .top_cafe {
@@ -896,6 +927,19 @@ a:hover {
 .top .top_coding .placce,
 .top .top_design .placce {
 	text-align: center;
+}
+
+.top_sp {
+	height: auto;
+	padding: 30px 0;
+}
+
+.top_sp h2 {
+	font-size: 1.4rem;
+}
+
+.top_sp p {
+	font-size: 1.2rem;
 }
 
 .top_cafe {

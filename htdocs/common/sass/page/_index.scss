@@ -152,8 +152,8 @@
 		justify-content: center;
 		//align-items: center;
 		width: 50%;
-		height: 100vh;
-		padding: 22vh 8vw 8vh;
+		height: 85vh;
+		padding: 18vh 8vw 8vh;
 		
 		@include media_query(){
 			width: 100%;
@@ -169,10 +169,10 @@
 		}
 		
 		h3{
-			font-size: 2.5rem;
+			font-size: 2.3rem;
 			text-align: center;
 			font-weight: 400;
-			margin-bottom: 40px;
+			margin-bottom: 25px;
 			color: #000;
 		}
 		
@@ -184,6 +184,11 @@
 			@include media_query(){
 				text-align: justify;
 			}
+		}
+		
+		.small{
+  		font-size: .7em;
+  		line-height: 1.4;
 		}
 		
 		.datetime{
@@ -210,6 +215,40 @@
 	&_design{
 		@extend %top_box;
 		background-color: $base-color;
+	}
+	
+	&_sp{
+  	width: 100%;
+  	height: 15vh;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+  	background-color: #EB593C;
+  	color: #fff;
+  	
+  	@include media_query(){
+  		height: auto;
+  		padding: 30px 0;
+  	}
+  	
+  	h2{
+    	font-size: 1.5rem;
+    	
+    	@include media_query(){
+    		font-size: 1.4rem;
+    	}
+  	}
+  	
+  	p{
+    	font-size: 1.3rem;
+    	margin-top: 5px;
+    	
+    	@include media_query(){
+    		font-size: 1.2rem;
+    	}
+  	}
 	}
 }
 
