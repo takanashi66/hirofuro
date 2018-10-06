@@ -152,7 +152,9 @@
 		justify-content: center;
 		//align-items: center;
 		width: 50%;
-		height: 85vh;
+		//特別版を下に表示する場合
+		//height: 85vh;
+		height: 100vh;
 		padding: 18vh 8vw 8vh;
 		
 		@include media_query(){
