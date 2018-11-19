@@ -294,6 +294,14 @@ a:hover {
 	color: #eb593c;
 }
 
+.tal {
+	text-align: left !important;
+	line-height: 1.5;
+	margin-top: 1em;
+	display: block;
+	font-size: 1.3rem;
+}
+
 .go_top {
 	display: none;
 }
