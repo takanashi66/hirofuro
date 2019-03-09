@@ -1,0 +1,60 @@
+body{
+	color: $font-color;
+	font-size: 1.5rem;
+	font-weight: 300;
+	font-feature-settings : "palt" 1;
+	//background-color: #fafafa;
+}
+
+a{
+	color: $font-color;
+
+	&:hover{
+		opacity: .7;
+	}
+}
+
+.btn_share{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b5998;
+    color: #fff;
+    z-index: 9999;
+
+    i{
+        margin-right: 10px;
+        font-size: 2rem;
+        padding-top: 0;
+        vertical-align: top;
+    }
+
+    @include media_query(){
+    	top: auto;
+    	bottom: 0;
+    	left: 0;
+    	right: auto;
+    	width: 100%;
+    	height: 50px;
+    	padding: 2px 0 0 0;
+    	opacity: .7;
+    }
+}
+
+.alerttext{
+    font-size: 1.2rem !important;
+    color: $accent-color;
+}
+
+.tal{
+        text-align: left !important;
+        line-height: 1.5;
+        margin-top: 1em;
+        display: block;
+        font-size: 1.3rem;
+}

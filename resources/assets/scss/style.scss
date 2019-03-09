@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+//*------------------------------------*//
+//	Base
+//*------------------------------------*//
+
+@import 'base/reset',
+        'base/var',
+        'base/default';
+
+
+
+@import 'fontawesome/fontawesome';
+
+//*------------------------------------*//
+//	page
+//*------------------------------------*//
+@import 'page/common',
+        'page/index';
