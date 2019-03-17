@@ -1,5 +1,6 @@
 {
   "projects": {
-    "yes": "hirofuro-e303e"
+    "yes": "hirofuro-e303e",
+    "default": "hirofuro-e303e"
   }
 }
