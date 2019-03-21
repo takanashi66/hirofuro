@@ -1,7 +1,6 @@
 const mix = require('laravel-mix');
 
 mix.react('resources/assets/js/index.js', 'public/common/js')
-   .js('resources/assets/js/script.js', 'public/common/js')
    .sass('resources/assets/scss/style.scss', 'public/common/css')
    .options({
       processCssUrls: false,
@@ -26,6 +25,7 @@ mix.browserSync({
     'public/**/*.html',
     'public/**/*.php',
     'public/common/js/*.js',
+    'public/common/js/*.json',
     'public/common/css/*.css',
   ]
 })
