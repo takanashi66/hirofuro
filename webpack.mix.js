@@ -1,6 +1,7 @@
 const mix = require('laravel-mix');
 
-mix.js('resources/assets/js/script.js', 'public/common/js')
+mix.react('resources/assets/js/index.js', 'public/common/js')
+   .js('resources/assets/js/script.js', 'public/common/js')
    .sass('resources/assets/scss/style.scss', 'public/common/css')
    .options({
       processCssUrls: false,
@@ -15,7 +16,7 @@ mix.js('resources/assets/js/script.js', 'public/common/js')
       }
    })
    .sourceMaps()
-   
+
 mix.webpackConfig({ devtool: "inline-source-map" })
 
 mix.browserSync({
