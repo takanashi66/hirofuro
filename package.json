@@ -23,7 +23,8 @@
     "laravel-mix": "^2.1.11",
     "moment": "^2.24.0",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "sweet-scroll": "^4.0.0"
   },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
