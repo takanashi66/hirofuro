@@ -55,7 +55,7 @@ const DesignSection = props =>{
                             </tbody>
                         </table>
 
-                        <a className="btn_entry" href={ item.design.regist.url + item.design.regist.id } target="_blank">参加登録はこちら</a>
+                        <a className="btn_entry btn_none" href={ item.design.regist.url + item.design.regist.id } target="_blank">参加登録はこちら</a>
                     </section>
                 )
             })}

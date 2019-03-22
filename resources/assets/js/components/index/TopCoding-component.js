@@ -21,7 +21,7 @@ const TopCoding = props =>{
                             <br />
                             ({ item.coding.place.address })
                         </p>
-                        <a className="btn_entry" href={ item.coding.regist.url + item.coding.regist.id } target="_blank">参加登録はこちら</a>
+                        <a className="btn_entry btn_none" href={ item.coding.regist.url + item.coding.regist.id } target="_blank">参加登録はこちら</a>
                         <a className="btn_more" href="#coding">詳しい情報を見る</a>
                     </div>
                 )

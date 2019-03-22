@@ -55,7 +55,7 @@ const CodingSection = props =>{
                             </tbody>
                         </table>
 
-                        <a className="btn_entry" href={ item.coding.regist.url + item.coding.regist.id } target="_blank">参加登録はこちら</a>
+                        <a className="btn_entry btn_none" href={ item.coding.regist.url + item.coding.regist.id } target="_blank">参加登録はこちら</a>
                     </section>
                 )
             })}

@@ -21,7 +21,7 @@ const TopDesign = props =>{
                             <br />
                             ({ item.design.place.address })
                         </p>
-                        <a className="btn_entry" href={ item.design.regist.url + item.design.regist.id } target="_blank">参加登録はこちら</a><a className="btn_more" href="#design">詳しい情報を見る</a>
+                        <a className="btn_entry btn_none" href={ item.design.regist.url + item.design.regist.id } target="_blank">参加登録はこちら</a><a className="btn_more" href="#design">詳しい情報を見る</a>
                     </div>
                 )
             })}
