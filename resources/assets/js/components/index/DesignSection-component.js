@@ -5,13 +5,13 @@ import ReactDOM from 'react-dom'
 const DesignSection = props =>{
     return(
         <article id="design">
-            {props.data.map((item) => {
+            {props.data.map((item, i) => {
                 return (
-                    <section key={ item.design.id } className="introduction">
+                    <section key={i} className="introduction">
                         <h2>広島フロントエンド勉強会 Vol.{ item.design.id }</h2>
                         <h3>『{ item.design.title }』</h3>
                         <p className="text">
-                            { item.design.description }
+                            { props.nl2br(item.design.description) }
                         </p>
                         <table className="info_table">
                             <tbody>

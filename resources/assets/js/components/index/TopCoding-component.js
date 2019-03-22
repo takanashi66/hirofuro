@@ -11,7 +11,10 @@ const TopCoding = props =>{
                         <h2>広島フロントエンド勉強会 Vol.{ item.coding.id }</h2>
                         <h3>『{ item.coding.title }』</h3>
                         <p className="datetime">
-                            { item.coding.date.yaer }年 { item.coding.date.month }月 { item.coding.date.day }日 { item.coding.date.starttime } 〜 { item.coding.date.endtime }
+                            { item.coding.date.yaer }年
+                            { item.coding.date.month }月
+                            { item.coding.date.day }日 
+                            { item.coding.date.starttime } 〜 { item.coding.date.endtime }
                         </p>
                         <p className="placce">
                             { item.coding.place.name } { item.coding.place.floor } { item.coding.place.roome }

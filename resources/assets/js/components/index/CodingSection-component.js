@@ -11,7 +11,7 @@ const CodingSection = props =>{
                         <h2>広島フロントエンド勉強会 Vol.{ item.coding.id }</h2>
                         <h3>『{ item.coding.title }』</h3>
                         <p className="text">
-                            { item.coding.description }
+                            { props.nl2br(item.coding.description) }
                         </p>
                         <table className="info_table">
                             <tbody>

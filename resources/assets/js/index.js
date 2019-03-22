@@ -24,6 +24,18 @@ class App extends Component {
         }
     }
 
+    //JSONデータの改行を変換
+    nl2br(text){
+        const regex = /(\n)/g
+        return text.split(regex).map((line, i) =>{
+            if(line.match(regex)) {
+                return <br key={i} />
+            }else{
+                return line;
+            }
+        });
+    }
+
     componentWillMount() {
         fetch(json_url)
         .then((response) => response.json())
@@ -39,8 +51,8 @@ class App extends Component {
             <div className="index">
                 <FirstView  data = { this.state.data } />
                 <main className="main" id="main">
-                    <CodingSection  data = { this.state.data } />
-                    <DesignSection  data = { this.state.data } />
+                    <CodingSection  data={ this.state.data } nl2br={this.nl2br} />
+                    <DesignSection  data={ this.state.data } nl2br={this.nl2br}  />
                     <AboutSection />
                 </main>
                 <Footer />
