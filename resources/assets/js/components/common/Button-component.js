@@ -25,13 +25,20 @@ class Button extends Component {
             }
         }, 1000)
         
-        
-        
+    }
+    
+    isdisabled(e){
+        //.btn_noneがあるか判定
+        if(e.target.classList.contains("btn_none")){
+            //クリックイベントの無効化
+            e.preventDefault()
+        }
     }
 
     render(){
         return(
-            <a className={ `btn_entry ${ this.state.BtnClassName } `} href={ this.props.btnUrl } target="_blank">{ this.state.BtnText }</a>
+            <a className={ `btn_entry ${ this.state.BtnClassName } `} onClick={this.isdisabled
+            } href={ this.props.btnUrl } target="_blank">{ this.state.BtnText }</a>
         )
     }
 }
