@@ -14,17 +14,21 @@ class Button extends Component {
     }
     
     componentWillMount(){
-        
-        //終了時間のカウンター
-        const startInterval = setInterval(() =>{
-            moment.locale('ja')
-            if(! moment().isBefore(this.props.endTime)){
-                clearInterval(startInterval)
-                this.setState({BtnText: "終了しました" })
-                this.setState({BtnClassName: "btn_none" })
-            }
-        }, 1000)
-        
+        //終了してるか判定
+        if(! moment().isBefore(this.props.endTime)){
+            this.setState({BtnText: "終了しました" })
+            this.setState({BtnClassName: "btn_none" })
+        }else{
+            //終了時間のカウンター
+            const startInterval = setInterval(() =>{
+                moment.locale('ja')
+                if(! moment().isBefore(this.props.endTime)){
+                    clearInterval(startInterval)
+                    this.setState({BtnText: "終了しました" })
+                    this.setState({BtnClassName: "btn_none" })
+                }
+            }, 1000)
+        }
     }
     
     isdisabled(e){
