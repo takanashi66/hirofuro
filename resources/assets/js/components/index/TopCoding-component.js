@@ -24,7 +24,8 @@ const TopCoding = props =>{
                             <br />
                             ({ item.coding.place.address })
                         </p>
-                        <Button btnUrl = { item.coding.regist.url + item.coding.regist.id } />
+                        <Button btnUrl = { item.coding.regist.url + item.coding.regist.id } endTime = {String(item.coding.date.yaer) +
+                         "-" + props.getdoubleDigestNumer(String(item.coding.date.month))+ "-" + props.getdoubleDigestNumer(String(item.coding.date.day))+ " " + String(item.coding.date.endtime) } />
                         <a className="btn_more" href="#coding">詳しい情報を見る</a>
                     </div>
                 )

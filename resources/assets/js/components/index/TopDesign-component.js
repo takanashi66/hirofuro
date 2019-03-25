@@ -24,7 +24,8 @@ const TopDesign = props =>{
                             <br />
                             ({ item.design.place.address })
                         </p>
-                        <Button btnUrl = { item.design.regist.url + item.design.regist.id } />
+                        <Button btnUrl = { item.design.regist.url + item.design.regist.id } endTime = {String(item.design.date.yaer) +
+                         "-" + props.getdoubleDigestNumer(String(item.design.date.month))+ "-" + props.getdoubleDigestNumer(String(item.design.date.day))+ " " + String(item.design.date.endtime) } />
                         <a className="btn_more" href="#design">詳しい情報を見る</a>
                     </div>
                 )

@@ -58,7 +58,8 @@ const CodingSection = props =>{
                             </tbody>
                         </table>
 
-                        <Button btnUrl = { item.coding.regist.url + item.coding.regist.id } />
+                        <Button btnUrl = { item.coding.regist.url + item.coding.regist.id } endTime = {String(item.coding.date.yaer) +
+                         "-" + props.getdoubleDigestNumer(String(item.coding.date.month))+ "-" + props.getdoubleDigestNumer(String(item.coding.date.day))+ " " + String(item.coding.date.endtime) } />
                     </section>
                 )
             })}
