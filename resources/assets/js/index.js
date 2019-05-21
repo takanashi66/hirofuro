@@ -35,8 +35,13 @@ class App extends Component {
             }
         });
     }
+    
+    //0埋め
+    getdoubleDigestNumer(number){
+        return ("0" + number).slice(-2)
+    }
 
-    componentWillMount() {
+    componentWillMount(){
         fetch(json_url)
         .then((response) => response.json())
         .then((responseData) => {
@@ -49,10 +54,10 @@ class App extends Component {
     render(){
         return(
             <div className="index">
-                <FirstView  data = { this.state.data } />
+                <FirstView  data = { this.state.data } getdoubleDigestNumer={this.getdoubleDigestNumer} />
                 <main className="main" id="main">
-                    <CodingSection  data={ this.state.data } nl2br={this.nl2br} />
-                    <DesignSection  data={ this.state.data } nl2br={this.nl2br}  />
+                    <CodingSection  data={ this.state.data } nl2br={this.nl2br} getdoubleDigestNumer={this.getdoubleDigestNumer} />
+                    <DesignSection  data={ this.state.data } nl2br={this.nl2br} getdoubleDigestNumer={this.getdoubleDigestNumer} />
                     <AboutSection />
                 </main>
                 <Footer />

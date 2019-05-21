@@ -11,8 +11,8 @@ const FirstView = props =>{
     return(
         <div className="top sp">
             <h1 className="logo" data-heading="広島フロントエンド勉強会">広島フロントエンド勉強会</h1>
-            <TopCoding data = { props.data } />
-            <TopDesign data = { props.data } />
+            <TopCoding data = { props.data } getdoubleDigestNumer={props.getdoubleDigestNumer} />
+            <TopDesign data = { props.data } getdoubleDigestNumer={props.getdoubleDigestNumer} />
         </div>
     )
 }

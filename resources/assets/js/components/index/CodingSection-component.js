@@ -1,6 +1,9 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 
+//Buttonコンポーネント
+import Button from '../common/Button-component'
+
 //Stateless Functions
 const CodingSection = props =>{
     return(
@@ -55,7 +58,8 @@ const CodingSection = props =>{
                             </tbody>
                         </table>
 
-                        <a className="btn_entry btn_none" href={ item.coding.regist.url + item.coding.regist.id } target="_blank">参加登録はこちら</a>
+                        <Button btnUrl = { item.coding.regist.url + item.coding.regist.id } endTime = {String(item.coding.date.yaer) +
+                         "-" + props.getdoubleDigestNumer(String(item.coding.date.month))+ "-" + props.getdoubleDigestNumer(String(item.coding.date.day))+ " " + String(item.coding.date.endtime) } />
                     </section>
                 )
             })}

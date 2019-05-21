@@ -1,33 +1,33 @@
 [{
     "coding": {
-        "id": 25,
-        "title": "やさしいVue.js入門",
+        "id": 26,
+        "title": "テスト駆動開発から始めるJavaScript入門",
         "date": {
             "yaer": 2019,
-            "month": 3,
-            "day": 15,
+            "month": 6,
+            "day": 7,
             "starttime": "19:00",
             "endtime": "21:00"
         },
         "place": {
             "name": "合人社ウェンディひと・まちプラザ",
             "floor": "南棟3階",
-            "roome": "会議室A",
+            "roome": "会議室B",
             "address": "広島県広島市中区袋町6-36"
         },
         "regist": {
             "name": "connpass",
             "url": "https://hfe.connpass.com/event/",
-            "id": "122430"
+            "id": "132112"
         },
         "lecturer": {
-            "name": "神守 由理子",
-            "belong": "銀猫アトリエ",
-            "url": "https://ginneko-atelier.com/"
+            "name": "柿木 勝之",
+            "belong": "https://github.com/k2works",
+            "url": "https://github.com/k2works"
         },
         "capacity": 15,
         "fee": 200,
-        "description": "Vue.jsについてハンズオン形式で行います。"
+        "description": "入門書は読んだけどいざプログラムを書こうとすると手が止まる・・・\nこのセッションではゼロからプログラムを作成するプロセスを体験してもらうこと目的としています。\n初心者から経験者までJavaScriptを使っている人なら誰でも参加オッケーです。"
     },
     "design": {
         "id": 11,
@@ -47,7 +47,7 @@
         },
         "regist": {
             "name": "connpass",
-            "url": "https://hfe.connpass.com/event/",
+            "url": "https://hirofurodesign.connpass.com/event/",
             "id": "122432"
         },
         "lecturer": {

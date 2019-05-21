@@ -1,6 +1,9 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 
+//Buttonコンポーネント
+import Button from '../common/Button-component'
+
 //Stateless Functions
 const DesignSection = props =>{
     return(
@@ -55,7 +58,8 @@ const DesignSection = props =>{
                             </tbody>
                         </table>
 
-                        <a className="btn_entry btn_none" href={ item.design.regist.url + item.design.regist.id } target="_blank">参加登録はこちら</a>
+                        <Button btnUrl = { item.design.regist.url + item.design.regist.id } endTime = {String(item.design.date.yaer) +
+                         "-" + props.getdoubleDigestNumer(String(item.design.date.month))+ "-" + props.getdoubleDigestNumer(String(item.design.date.day))+ " " + String(item.design.date.endtime) } />
                     </section>
                 )
             })}

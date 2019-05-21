@@ -1,6 +1,9 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
 
+//Buttonコンポーネント
+import Button from '../common/Button-component'
+
 //Stateless Functions
 const TopCoding = props =>{
     return(
@@ -21,7 +24,8 @@ const TopCoding = props =>{
                             <br />
                             ({ item.coding.place.address })
                         </p>
-                        <a className="btn_entry btn_none" href={ item.coding.regist.url + item.coding.regist.id } target="_blank">参加登録はこちら</a>
+                        <Button btnUrl = { item.coding.regist.url + item.coding.regist.id } endTime = {String(item.coding.date.yaer) +
+                         "-" + props.getdoubleDigestNumer(String(item.coding.date.month))+ "-" + props.getdoubleDigestNumer(String(item.coding.date.day))+ " " + String(item.coding.date.endtime) } />
                         <a className="btn_more" href="#coding">詳しい情報を見る</a>
                     </div>
                 )
