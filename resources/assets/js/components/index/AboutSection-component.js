@@ -35,7 +35,6 @@ const AboutSection = props =>{
                 <div className="member_item"><img src="../common/img/tantan.png" alt="タンタン" />
                     <h2>タンタン</h2>
                     <ul>
-                        <li><a href="https://leadspace.co.jp/" target="_blank">リードスペース株式会社</a></li>
                         <li>デザイナー</li>
                     </ul>
                 </div>
