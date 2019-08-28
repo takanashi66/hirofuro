@@ -1,33 +1,33 @@
 [{
     "coding": {
-        "id": 26,
-        "title": "テスト駆動開発から始めるJavaScript入門",
+        "id": 27,
+        "title": "Reactコンポーネントについて考える",
         "date": {
             "yaer": 2019,
-            "month": 6,
-            "day": 7,
+            "month": 9,
+            "day": 15,
             "starttime": "19:00",
             "endtime": "21:00"
         },
         "place": {
             "name": "合人社ウェンディひと・まちプラザ",
-            "floor": "南棟3階",
-            "roome": "会議室B",
+            "floor": "南棟4階",
+            "roome": "研修室C",
             "address": "広島県広島市中区袋町6-36"
         },
         "regist": {
             "name": "connpass",
             "url": "https://hfe.connpass.com/event/",
-            "id": "132112"
+            "id": "145248"
         },
         "lecturer": {
-            "name": "柿木 勝之",
-            "belong": "https://github.com/k2works",
-            "url": "https://github.com/k2works"
+            "name": "井上 拓",
+            "belong": "ファナフェクト株式会社",
+            "url": "https://codecodeweb.com"
         },
-        "capacity": 15,
+        "capacity": 20,
         "fee": 200,
-        "description": "入門書は読んだけどいざプログラムを書こうとすると手が止まる・・・\nこのセッションではゼロからプログラムを作成するプロセスを体験してもらうこと目的としています。\n初心者から経験者までJavaScriptを使っている人なら誰でも参加オッケーです。"
+        "description": ""
     },
     "design": {
         "id": 11,

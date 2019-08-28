@@ -16,6 +16,7 @@ const AboutSection = props =>{
                 <h2>開催情報</h2>
                 <p>開催情報はwebページとFacebookページ、Facebookグループ、Twitterを通じて発信しています。</p><br /><a className="btn_face" href="https://www.facebook.com/hirofuro.org/" target="_blank">Facebookページ</a><a className="btn_face" href="https://twitter.com/hirofuroorg" target="_blank">Twitter(@hirofuroorg)</a><br />
                 <p><small>※広島フロントエンド勉強会はボランティアベースで開催しており、<br />知識のシェア・助け合いで成り立ってますので、ご参加の際はご理解・ご協力お願いいたします。<br />ご理解いただけない場合は、参加をお断りすることがございます。</small></p>
+                <p><small>※広島フロント勉強会ではいかなる政治活動、宗教活動、及びそれに類似するものの活動（署名活動含む）は禁止しています。<br/>ご理解・ご協力お願いいたします。</small></p>
             </section>
             <section className="member">
                 <div className="member_item"><img src="../common/img/inoue.jpg" alt="井上拓" />
