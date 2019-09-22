@@ -30,14 +30,14 @@
         "description": ""
     },
     "design": {
-        "id": 11,
+        "id": 12,
         "title": "デザインお悩み相談会",
         "date": {
             "yaer": 2019,
-            "month": 3,
-            "day": 17,
-            "starttime": "10:00",
-            "endtime": "12:00"
+            "month": 10,
+            "day": 27,
+            "starttime": "13:00",
+            "endtime": "15:00"
         },
         "place": {
             "name": "合人社ウェンディひと・まちプラザ",
