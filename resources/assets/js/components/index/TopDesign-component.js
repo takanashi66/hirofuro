@@ -18,6 +18,8 @@ const TopDesign = props =>{
                             { item.design.date.month }月
                             { item.design.date.day }日 
                             { item.design.date.starttime } 〜 { item.design.date.endtime }
+                            <br/>
+                            開場：{item.design.date.open}
                         </p>
                         <p className="placce">
                             { item.design.place.name } { item.design.place.floor } { item.design.place.roome }

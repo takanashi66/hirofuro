@@ -18,6 +18,8 @@ const TopCoding = props =>{
                             { item.coding.date.month }月
                             { item.coding.date.day }日 
                             { item.coding.date.starttime } 〜 { item.coding.date.endtime }
+                            <br/>
+                            開場：{item.coding.date.open}
                         </p>
                         <p className="placce">
                             { item.coding.place.name } { item.coding.place.floor } { item.coding.place.roome }

@@ -22,6 +22,8 @@ const CodingSection = props =>{
                                     <th>日時</th>
                                     <td>
                                         { item.coding.date.yaer }年{ item.coding.date.month }月{ item.coding.date.day }日 { item.coding.date.starttime } 〜 { item.coding.date.endtime }
+                                        <br/>
+                                        開場：{item.coding.date.open}
                                     </td>
                                 </tr>
                                 <tr>

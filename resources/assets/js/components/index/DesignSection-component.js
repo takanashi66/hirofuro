@@ -22,6 +22,8 @@ const DesignSection = props =>{
                                     <th>日時</th>
                                     <td>
                                         { item.design.date.yaer }年{ item.design.date.month }月{ item.design.date.day }日 { item.design.date.starttime } 〜 { item.design.date.endtime }
+                                        <br/>
+                                        開場：{item.design.date.open}
                                     </td>
                                 </tr>
                                 <tr>
